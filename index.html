@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>My First Webpage </title>
+  <title>jQuery</title>
   <meta name="description" content="Topic">
   <meta name="author" content=" Ed">
   <link rel="stylesheet" href="css/styles.css?v=1.0">
@@ -12,6 +12,15 @@
   <!--[if lt IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
       <![endif]-->
+
+      <!-- how to link jQuery, 2 ways: -->
+      <!-- CDN method: -->
+        <!-- <script
+          src="http://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script> -->
+
+          <!-- Downloading method: -->
         <script src="js/jquery-3.3.1.min.js"></script>  <!-- need to load this script(jQuery) before any other script in heading -->
 </head>
 
@@ -19,8 +28,10 @@
   <h1>This is some textarea</h1>
   <p>This is a paragraph text</p>
   <div id="Test"><p>tset</p> as </div>
-
-
+  <div id="myBox">???
+  </div>
+  <button id="buttonColor" type="button" name="show">Show Box</button>
+  <button id="hide" type="button" name="hide">HIde Box</button>
   <script src="js/scripts.js"></script>
 </body>
 
